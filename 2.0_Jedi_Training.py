@@ -26,27 +26,27 @@ print(type(True)) #BOOLEAN
 into the Python Console Window?
 '''
 a=2
-a*=10
-a/=2
-a+=12
-a-=7
+a*=10 #20
+a/=2 #1
+a+=12#14
+a-=7 #-5
 
-print(a)=
-print(type(a))      =
+print(a)
+print(type(a))
 
 '''
 4.) What is the mistake in the following code. Fix it!
 '''
 x,y = (4,5)
-a = 3(x + y)
-a
+a = 3*(x + y)
+print(a)
 
 '''
 5.) What is the mistake in the following code so it will calculate the average. Fix it!
 '''
 x,y,z =(3,4,5)
-ave = x+y+z/3
-ave
+ave = (x+y+z)/3
+print(ave)
 
 
-'''
+
